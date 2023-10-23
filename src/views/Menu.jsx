@@ -16,7 +16,7 @@ export default function Menu() {
                         <a className="nav-link col-12 col-sm-4 col-md-4 col-lg-2" href="#areas">Áreas</a>
                         <a className="nav-link col-12 col-sm-4 col-md-4 col-lg-2" href="#servicios">Servicios</a>
                         <a className="nav-link col-12 col-sm-4 col-md-4 col-lg-2" href="#contacto">Contacto</a>
-                        <a className="nav-link col-12 col-sm-4 col-md-4 col-lg-2" href="#correo">Correo</a>
+                        <a className="nav-link col-12 col-sm-4 col-md-4 col-lg-2" href="https://mail.google.com" target="_blank" rel="noopener noreferrer">Correo</a>
                     </div>
                 </nav>
             </div>
