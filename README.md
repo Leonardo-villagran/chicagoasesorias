@@ -1,95 +1,35 @@
-# BiotiK Web App
+# Página Web Legal de Chicago y Asociados
 
-![BiotiK Logo](https://github.com/Leonardo-villagran/biotik-web/blob/main/public/images/logo.png?raw=true)
-
-La aplicación web BiotiK es una plataforma de análisis de información que ofrece soluciones avanzadas para la recolección y procesamiento de datos. Este README proporciona información sobre la estructura de la aplicación y cómo ejecutarla localmente.
-
-## Contenido
-
-- [Capturas de Pantalla](#capturas-de-pantalla)
-- [Instrucciones de Uso](#instrucciones-de-uso)
-- [Estructura del Proyecto](#estructura-del-proyecto)
-- [Tecnologías Utilizadas](#tecnologías-utilizadas)
-
-## Capturas de Pantalla
-
-![Pantalla de Inicio](https://github.com/Leonardo-villagran/biotik-web/blob/main/public/images/screenshot1.png?raw=true)
-
-
-![Proceso de Trabajo](https://github.com/Leonardo-villagran/biotik-web/blob/main/public/images/screenshot2.png?raw=true)
-
-
-## Instrucciones de Uso
-
-Para ejecutar la aplicación de manera local, sigue estos pasos:
-
-1. Clona este repositorio en tu máquina local:
-
-   ```shell
-   git clone https://github.com/Leonardo-villagran/biotik-web
-   ```
-
-2. Navega al directorio del proyecto:
-
-   ```shell
-   cd biotik-web-app
-   ```
-
-3. Instala las dependencias utilizando npm:
-
-   ```shell
-   npm install
-   ```
-
-4. Inicia la aplicación:
-
-   ```shell
-   npm start
-   ```
-
-5. Abre tu navegador web y visita [http://localhost:3000](http://localhost:3000) para ver la aplicación en funcionamiento.
-
-## Estructura del Proyecto
-
-El proyecto se estructura de la siguiente manera:
-
-```
-biotik-web-app/
-  ├── public/
-  │   ├── images/
-  │   │   ├── logo.png
-  │   │   ├── screenshot1.png
-  │   │   ├── screenshot2.png
-  │   │   └── ...
-  │   ├── index.html
-  │   └── ...
-  ├── src/
-  │   ├── views/
-  │   │   ├── AboutBiotik.js
-  │   │   ├── HowItWorks.js
-  │   │   ├── Advantages.js
-  │   │   ├── DataSecurity.js
-  │   │   ├── DataProcessing.js
-  │   │   ├── WhyChooseBiotik.js
-  │   │   └── ...
-  │   ├── App.css
-  │   ├── App.js
-  │   ├── Header.js
-  │   ├── Menu.js
-  │   └── ...
-  ├── package.json
-  ├── README.md
-  └── ...
-```
+Este proyecto es una página web legal construida utilizando React y Vite. Proporciona información sobre los servicios legales ofrecidos por Chicago y Asociados, una consultora de asesoría legal de abogados. La página web incluye secciones como "Nuestra Empresa", "Áreas de Especialización", "Servicios Adicionales" y "Contacto".
 
 ## Tecnologías Utilizadas
 
-La aplicación utiliza las siguientes tecnologías y herramientas:
+- React: Una biblioteca de JavaScript para construir interfaces de usuario.
+- Vite: Un entorno de desarrollo rápido para aplicaciones web con React.
+- Bootstrap: Un marco de diseño para desarrollar aplicaciones web con CSS y componentes preestablecidos.
+- Framer Motion: Una biblioteca de animaciones para React.
 
-- [React](https://reactjs.org/): Una biblioteca de JavaScript para construir interfaces de usuario.
-- [Bootstrap](https://getbootstrap.com/): Un marco de diseño CSS para la creación de páginas web receptivas y modernas.
-- [Vite](https://vitejs.dev/): Un marco de desarrollo web rápido que permite una experiencia de desarrollo extremadamente rápida.
-- [Node.js](https://nodejs.org/): Un entorno de ejecución para JavaScript del lado del servidor.
-- [Express](https://expressjs.com/): Un marco de aplicación web para Node.js.
-- [PostgreSQL](https://www.postgresql.org/): Un sistema de gestión de bases de datos relacional de código abierto.
-# chicagoasesorias
+## Estructura del Proyecto
+
+El proyecto se organiza en múltiples vistas y componentes:
+
+- `Header`: La cabecera de la página.
+- `Menu`: El menú de navegación.
+- `Empresa`: Información sobre la empresa.
+- `Home`: La página de inicio con información principal.
+- `Areas`: Información sobre las áreas de especialización.
+- `Servicios`: Detalles sobre los servicios legales adicionales.
+- `Contacto`: Información de contacto.
+- `Footer`: El pie de página.
+
+## Inicio Rápido
+
+1. Clona este repositorio a tu máquina local.
+2. Asegúrate de tener Node.js y npm instalados.
+3. Ejecuta `npm install` para instalar las dependencias del proyecto.
+4. Ejecuta `npm start` para iniciar el servidor de desarrollo.
+5. Abre tu navegador y visita `http://localhost:4173/chicagoasesorias/` para ver la página web.
+
+## Despliegue en GitHub Pages
+
+Puedes utilizar la herramienta `gh-pages` para implementar este proyecto en GitHub Pages. Consulta las instrucciones en el archivo README para más detalles.
